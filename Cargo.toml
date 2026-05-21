@@ -1,0 +1,14 @@
+[package]
+name = "s3-bucket-filename-validator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+aws-config = { version = "1.1.7", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.133.0"
+dotenv = "0.15.0"
+indexmap = { version = "2.14.0", features = ["serde"] }
+regex = "1.12.3"
+serde_json = "1.0.149"
+tokio = { version = "1", features = ["full"] }
