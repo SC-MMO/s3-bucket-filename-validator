@@ -29,7 +29,7 @@ AWS_ENDPOINT_URL=
 ### 3.1 Instant Run
 
 ```bash
-cargo run
+cargo run # or cargo run--release
 ```
 
 ---
@@ -39,11 +39,11 @@ cargo run
 Build the binary:
 
 ```bash
-cargo build
+cargo build # or cargo build --release
 ```
 
 Run the executable:
 
 ```bash
-./target/debug/s3-bucket-filename-validator
+./target/debug/s3-bucket-filename-validator # or ./target/release/s3-bucket-filename-validator
 ```
